@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 数据文件（含个人隐私，不上传）
+data/*.json
+data/*.csv
+!data/.gitkeep
+
+# 配置文件
+config/*.yaml
+config/*.json
+!config/*.example.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 截图/临时
+_shots/
+*.log
